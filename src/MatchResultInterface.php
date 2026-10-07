@@ -2,14 +2,15 @@
 
 /*
  * (c) Zing Studios LLC
+ * (c) D9 Technologies
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Zing\Matcher;
+namespace D9\Matcher;
 
-use Zing\Matcher\SimilarityComparer\SimilarityResultInterface;
+use D9\Matcher\SimilarityComparer\SimilarityResultInterface;
 
 
 interface MatchResultInterface

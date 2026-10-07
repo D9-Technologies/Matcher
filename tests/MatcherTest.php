@@ -2,29 +2,30 @@
 
 /*
  * (c) Zing Studios LLC
+ * (c) D9 Technologies
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Zing\Matcher\Tests;
+namespace D9\Matcher\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Zing\Matcher\Exception\LengthException;
-use Zing\Matcher\Exception\TieException;
-use Zing\Matcher\Matcher;
-use Zing\Matcher\MatcherInterface;
-use Zing\Matcher\MatchResult;
-use Zing\Matcher\Preprocessor\StrToLowerPreprocessor;
-use Zing\Matcher\Result;
-use Zing\Matcher\SimilarityComparer\Levenshtein\LevensteinComparer;
-use Zing\Matcher\SimilarityComparer\Levenshtein\LevensteinSimilarityResult;
-use Zing\Matcher\SimilarityComparer\SimilarityComparerInterface;
-use Zing\Matcher\TieBreaker\LastMatch;
-use Zing\Matcher\TieBreaker\ThrowException;
+use D9\Matcher\Exception\LengthException;
+use D9\Matcher\Exception\TieException;
+use D9\Matcher\Matcher;
+use D9\Matcher\MatcherInterface;
+use D9\Matcher\MatchResult;
+use D9\Matcher\Preprocessor\StrToLowerPreprocessor;
+use D9\Matcher\Result;
+use D9\Matcher\SimilarityComparer\Levenshtein\LevensteinComparer;
+use D9\Matcher\SimilarityComparer\Levenshtein\LevensteinSimilarityResult;
+use D9\Matcher\SimilarityComparer\SimilarityComparerInterface;
+use D9\Matcher\TieBreaker\LastMatch;
+use D9\Matcher\TieBreaker\ThrowException;
 
 /**
- * @covers \Zing\Matcher\Matcher
+ * @covers \D9\Matcher\Matcher
  */
 class MatcherTest extends TestCase
 {

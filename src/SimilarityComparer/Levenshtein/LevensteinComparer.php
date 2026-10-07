@@ -2,18 +2,19 @@
 
 /*
  * (c) Zing Studios LLC
+ * (c) D9 Technologies
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Zing\Matcher\SimilarityComparer\Levenshtein;
+namespace D9\Matcher\SimilarityComparer\Levenshtein;
 
 
-use Zing\Matcher\Exception\InvalidArgumentException;
-use Zing\Matcher\Exception\LengthException;
-use Zing\Matcher\SimilarityComparer\AbstractComparer;
-use Zing\Matcher\SimilarityComparer\SimilarityResultInterface;
+use D9\Matcher\Exception\InvalidArgumentException;
+use D9\Matcher\Exception\LengthException;
+use D9\Matcher\SimilarityComparer\AbstractComparer;
+use D9\Matcher\SimilarityComparer\SimilarityResultInterface;
 
 class LevensteinComparer extends AbstractComparer
 {

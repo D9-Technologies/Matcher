@@ -1,4 +1,4 @@
-Zing Matcher
+D9 Matcher
 ================
 
 This library provides the following:
@@ -50,8 +50,8 @@ similarity scores are not normalized in any way and their values are
 determined by the comparison algorithm used.
 
 ```php
-use Zing\Matcher\Matcher;
-use Zing\Matcher\SimilarityComparer\Levenshtein\LevensteinComparer;
+use D9\Matcher\Matcher;
+use D9\Matcher\SimilarityComparer\Levenshtein\LevensteinComparer;
 
 $haystack = [
     'fox',
@@ -119,8 +119,8 @@ that can be used. You can create your own by implementing the TieBreakerInterfac
 the winner of the tie.
 
 ```php
-use Zing\Matcher\TieBreaker\LastMatch;
-use Zing\Matcher\TieBreaker\ThrowException;
+use D9\Matcher\TieBreaker\LastMatch;
+use D9\Matcher\TieBreaker\ThrowException;
 
 $haystack = [
     'cat',

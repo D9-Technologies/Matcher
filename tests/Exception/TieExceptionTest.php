@@ -2,20 +2,21 @@
 
 /*
  * (c) Zing Studios LLC
+ * (c) D9 Technologies
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Zing\Matcher\Tests\Exception;
+namespace D9\Matcher\Tests\Exception;
 
 use PHPUnit\Framework\TestCase;
-use Zing\Matcher\Exception\TieException;
-use Zing\Matcher\Result;
-use Zing\Matcher\SimilarityComparer\Levenshtein\LevensteinSimilarityResult;
+use D9\Matcher\Exception\TieException;
+use D9\Matcher\Result;
+use D9\Matcher\SimilarityComparer\Levenshtein\LevensteinSimilarityResult;
 
 /**
- * @covers \Zing\Matcher\Exception\TieException
+ * @covers \D9\Matcher\Exception\TieException
  */
 class TieExceptionTest extends TestCase
 {

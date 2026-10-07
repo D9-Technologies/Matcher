@@ -1,16 +1,17 @@
 <?php
 /*
  * (c) Zing Studios LLC
+ * (c) D9 Technologies
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Zing\Matcher\TieBreaker;
+namespace D9\Matcher\TieBreaker;
 
-use Zing\Matcher\Exception\LengthException;
-use Zing\Matcher\Exception\TieException;
-use Zing\Matcher\MatchResultInterface;
+use D9\Matcher\Exception\LengthException;
+use D9\Matcher\Exception\TieException;
+use D9\Matcher\MatchResultInterface;
 
 /**
  * Doesn't really break a tie, instead it throws a TieException

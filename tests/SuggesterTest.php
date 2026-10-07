@@ -2,23 +2,24 @@
 
 /*
  * (c) Zing Studios LLC
+ * (c) D9 Technologies
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Zing\Matcher\Tests;
+namespace D9\Matcher\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Zing\Matcher\Exception\LengthException;
-use Zing\Matcher\MatchResultInterface;
-use Zing\Matcher\Preprocessor\MetaphonePreprocessor;
-use Zing\Matcher\SimilarityComparer\Levenshtein\LevensteinComparer;
-use Zing\Matcher\SimilarityComparer\SimilarText\SimilarTextSwappedAverageComparer;
-use Zing\Matcher\Suggester;
+use D9\Matcher\Exception\LengthException;
+use D9\Matcher\MatchResultInterface;
+use D9\Matcher\Preprocessor\MetaphonePreprocessor;
+use D9\Matcher\SimilarityComparer\Levenshtein\LevensteinComparer;
+use D9\Matcher\SimilarityComparer\SimilarText\SimilarTextSwappedAverageComparer;
+use D9\Matcher\Suggester;
 
 /**
- * @covers \Zing\Matcher\Suggester
+ * @covers \D9\Matcher\Suggester
  */
 class SuggesterTest extends TestCase
 {

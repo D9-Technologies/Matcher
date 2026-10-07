@@ -2,19 +2,20 @@
 
 /*
  * (c) Zing Studios LLC
+ * (c) D9 Technologies
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Zing\Matcher;
+namespace D9\Matcher;
 
-use Zing\Matcher\Exception\InvalidArgumentException;
-use Zing\Matcher\Exception\LengthException;
-use Zing\Matcher\Preprocessor\PreprocessorInterface;
-use Zing\Matcher\SimilarityComparer\SimilarityComparerInterface;
-use Zing\Matcher\TieBreaker\FirstMatch;
-use Zing\Matcher\TieBreaker\TieBreakerInterface;
+use D9\Matcher\Exception\InvalidArgumentException;
+use D9\Matcher\Exception\LengthException;
+use D9\Matcher\Preprocessor\PreprocessorInterface;
+use D9\Matcher\SimilarityComparer\SimilarityComparerInterface;
+use D9\Matcher\TieBreaker\FirstMatch;
+use D9\Matcher\TieBreaker\TieBreakerInterface;
 
 /**
  * This is a wrapper around the levenshtein function to allow finding
