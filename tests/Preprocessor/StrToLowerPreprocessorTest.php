@@ -2,18 +2,19 @@
 
 /*
  * (c) Zing Studios LLC
+ * (c) D9 Technologies
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace Zing\Matcher\Tests\Preprocessor;
+namespace D9\Matcher\Tests\Preprocessor;
 
 use PHPUnit\Framework\TestCase;
-use Zing\Matcher\Preprocessor\StrToLowerPreprocessor;
+use D9\Matcher\Preprocessor\StrToLowerPreprocessor;
 
 /**
- * @covers \Zing\Matcher\Preprocessor\StrToLowerPreprocessor
+ * @covers \D9\Matcher\Preprocessor\StrToLowerPreprocessor
  */
 class StrToLowerPreprocessorTest extends TestCase
 {

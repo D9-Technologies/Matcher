@@ -1,5 +1,5 @@
 {
-    "name": "zing-studios/matcher",
+    "name": "d9-technologies/matcher",
     "description": "levenshtein example",
     "type": "library",
     "require": {
@@ -12,7 +12,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Zing\\Matcher\\": "src/"
+            "D9\\Matcher\\": "src/"
         },
         "files": [
             "src/Polyfill/bootstrap.php"
@@ -20,15 +20,18 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Zing\\Matcher\\Tests\\": "tests/"
+            "D9\\Matcher\\Tests\\": "tests/"
         }
     },
     "suggest": {
     },
     "authors": [
         {
-            "name": "James Haynes",
-            "email": "james@zingstudios.com"
+            "name": "Ethan Elshyeb",
+            "email": "eelshyeb@d9now.com"
+        },
+        {
+            "name": "James Haynes"
         }
     ]
 }

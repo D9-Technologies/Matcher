@@ -1,13 +1,14 @@
 <?php
 /*
  * (c) Zing Studios LLC
+ * (c) D9 Technologies
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-use Zing\Matcher\Polyfill\MbLevenshtein;
-use Zing\Matcher\Polyfill\MbSimilarText;
+use D9\Matcher\Polyfill\MbLevenshtein;
+use D9\Matcher\Polyfill\MbSimilarText;
 
 /**
  * This file serves to load mb_levenshtein as a polyfill.
