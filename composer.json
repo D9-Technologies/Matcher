@@ -27,8 +27,11 @@
     },
     "authors": [
         {
-            "name": "Ethan",
+            "name": "Ethan Elshyeb",
             "email": "eelshyeb@d9now.com"
+        },
+        {
+            "name": "James Haynes"
         }
     ]
 }
