@@ -1,6 +1,6 @@
 <?php
 /*
- * (c) Zing Studios LLC
+ * (c) Zing Studios LLC and James Haynes
  * (c) D9 Technologies
  *
  * For the full copyright and license information, please view the LICENSE
