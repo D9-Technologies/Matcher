@@ -87,7 +87,7 @@ if (!function_exists('mb_similar_text') && extension_loaded('mbstring')) {
      * </p>
      * @return int the number of matching chars in both strings.
      */
-    function mb_similar_text(string $string1, string $string2, float &$percent = null): int {
+    function mb_similar_text(string $string1, string $string2, ?float &$percent = null): int {
         $compute_percentage = func_num_args() >= 3;
 
         if ($compute_percentage) {

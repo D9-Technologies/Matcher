@@ -14,7 +14,7 @@ class MbSimilarText
     public static function mb_similar_text(
         string $t1,
         string $t2,
-        float &$percent = null
+        ?float &$percent = null
     ): int {
         $compute_percentage = func_num_args() >= 3;
 
